@@ -1,0 +1,23 @@
+﻿@using FruitCorp.Web.Helpers
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Acme Fruit</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"><h3 class="row text-muted">
+                <img src="~/Models/Media/pee-apple.png" />
+                Acme Fruit</h3>
+            </div>
+        </div>
+        @{ Html.RenderMainNavigation(); }
+        @RenderBody()
+    </div>
+</body>
+</html>

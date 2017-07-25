@@ -1,0 +1,101 @@
+﻿body {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgba(0,0,0,1);
+}
+
+.body-content {
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6, .heading, nav.main, table thead th, nav.tabs, .btn, button, .link.text-uppercase a, nav.sub {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+}
+
+a {
+    color:black;
+}
+
+    a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+.navbar {
+    background-color: rgba(27,27,27,0.85);
+    height: 60px;
+}
+
+.pageHead {
+    margin-top: 160px;
+}
+
+.render {
+    background-color: #f4f4f4;
+    /*margin-top:60px;*/
+}
+
+footer {
+    background-color: black;
+    color: #ffff4d;
+    min-height: 250px;
+    padding: 40px;
+}
+
+    footer .heading {
+        font-size: 16px;
+    }
+
+.icons {
+    padding-top: 15px;
+}
+
+.addresses {
+    color: white;
+}
+
+a.addresses:hover{
+    color:firebrick
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+}
+
+.coolBtn {
+    border: 2px solid rgba(208,69,49,1);
+    border-radius: 0;
+    background-color: rgba(0,0,0,0);
+    height: 50px;
+    width: 140px;
+    margin: 20px
+}
+
+    .coolBtn:hover {
+        background-color: rgba(208,69,49,1);
+        color: rgba(255,255,255,1)
+    }
+
+.awsBtn {
+    border: 2px solid rgba(208,69,49,1);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-width: 0;
+    border-radius: 0;
+    height: 50px;
+    width: 140px;
+    margin: 20px
+}
+
+    .awsBtn:hover {
+        background-color: rgba(0,0,0,1);
+        color: white;
+    }
