@@ -216,6 +216,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custom.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Models\Media\pee-apple.png" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -242,6 +243,7 @@
     <Content Include="Views\Shared\_Root.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\StandardPage\Index.cshtml" />
+    <Content Include="Views\Shared\_WithSubNavigation.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
