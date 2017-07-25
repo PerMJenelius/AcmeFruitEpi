@@ -42,7 +42,7 @@ namespace FruitCorp.Web.Helpers
                 }
                 writer.WriteLine(html.PageLink(rootLink).ToHtmlString());
                 writer.WriteLine("</li>");
-            }
+            } 
 
             //Retrieve and filter the root page's children
             contentLoader = contentLoader ??
